@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(246, 247, 248);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 h1 {
     text-align: center;
     color: #ffffff;
@@ -9,7 +15,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #5295d8;
+    background-color: rgb(56, 107, 201);
 }
 div.header-container h1 {
     margin: 0;
@@ -42,4 +48,133 @@ h3 {
     color: #030303;
     font-size: 24px;
     margin-top: 10px;;
+}
+h4 {
+    text-align: left;
+    color: #030303;
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h5 {
+    text-align: left;
+    color: #030303;
+    font-size: 20px;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #b3ccee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card h3 {  
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+.card img {
+    width: 100%;
+    height: auuto;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #0c524eab;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+.card {
+  width: 250px;
+    height: 390px;
+    background-color: rgb(197, 215, 248);
+   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   transition: ease-in-out;
+}
+.card img {
+    width: 100%;
+    height: auuto;
+    border-radius: 10px;
+}
+.card h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card a {
+  color: #dfe1e4;
+  text-decoration: none;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.2);
+}
+footer {
+  background-color: #081738ab;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
